@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata & Portofolio | Muhammad Sabriannov</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500;700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container" id="top">
+ 
+        <header class="header">
+            <nav class="navbar">
+                <a class="brand" href="#top">Sabriannov</a>
+                <ul class="menu">
+                    <li><a href="#biodata">Biodata</a></li>
+                    <li><a href="#keahlian">Keahlian</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <h1>Profil & Portofolio Saya</h1>
+                <p>Biodata, keahlian, dan proyek web yang saya kerjakan selama belajar HTML dan CSS.</p>
+            </div>
+        </header>
+ 
+        <main class="main-content">
+ 
+            <section class="biodata-container" id="biodata">
+                <img src="Foto.jpeg" alt="Foto Profil Muhammad Sabriannov" class="foto-profil">
+                <div class="biodata-detail">
+                    <h2 class="section-title">Biodata</h2>
+                    <table class="table">
+                        <tr><td>Nama</td><td>:</td><td>Muhammad Sabriannov</td></tr>
+                        <tr><td>Tempat, Tanggal Lahir</td><td>:</td><td>Teluk Panji, 19 November 2006</td></tr>
+                        <tr><td>Jenis Kelamin</td><td>:</td><td>Laki-laki</td></tr>
+                        <tr><td>Alamat</td><td>:</td><td>Jl. Kayu Arang, Bangka</td></tr>
+                        <tr><td>Telepon</td><td>:</td><td>082177757710</td></tr>
+                        <tr><td>Email</td><td>:</td><td>2500016041@webmail.uad.ac.id</td></tr>
+                    </table>
+                </div>
+            </section>
+ 
+            <section id="keahlian">
+                <h2 class="section-title">Keahlian</h2>
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>Laragon</li>
+                    <li>MyQSL</li>
+                    <li>Bizagi</li>
+                </ul>
+            </section>
+ 
+            <!-- LAYOUT 2: Flexbox -> kartu portofolio (horizontal di desktop, vertikal di mobile) -->
+            <section class="portfolio-section" id="portofolio">
+                <h2 class="section-title">Portofolio Proyek</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Proyek 1</h3>
+                        <p>Deskripsi singkat tentang proyek web pertama. Menggunakan HTML & CSS.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Proyek 2</h3>
+                        <p>Deskripsi singkat tentang proyek web kedua. Implementasi layout responsif.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Proyek 3</h3>
+                        <p>Deskripsi singkat tentang proyek web ketiga. Eksperimen Flexbox & Grid.</p>
+                    </article>
+                </div>
+            </section>
+ 
+        </main>
+ 
+        <footer class="footer">
+            <hr>
+            <p>copyright @Muhammad Sabriannov</p>
+        </footer>
+    </div>
+</body>
+</html>
